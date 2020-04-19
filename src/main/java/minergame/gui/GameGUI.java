@@ -20,11 +20,11 @@ public class GameGUI extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("game_gui.fxml"));
-        //Button root = new Button("Amazing Board Game coming soon...");
+        //Button root = new Button("Amazing Miner Game coming soon...");
         //root.setFont(new Font(24));
 
-        primaryStage.setScene(new Scene(root, 800, 500));
-        primaryStage.setTitle("Board Game");
+        primaryStage.setScene(new Scene(root, 800, 600));
+        primaryStage.setTitle("Gold Miner Game");
         primaryStage.show();
     }
 
